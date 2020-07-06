@@ -1,0 +1,77 @@
+---
+title: 'Codelift'
+aliases: ['codelift', 'Codelift GUI']
+---
+
+[[Tailwind]] [[CSS]] [[Gatsby]] [[Gatsby Theme]]
+
+## A "No Code" GUI for your React app
+
+GUI for working with [[Tailwind]].
+But it has exaples only for [[CRA]] and [[Next.js]].
+
+[Github](https://github.com/ericclemmons/codelift)
+
+## TODO
+
+Make [[Gatsby Theme]] implementation
+
+I added
+
+```js
+// gatsby-browser.js and gatsby-ssr.js
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { register } from 'codelift'
+
+
+register({ React, ReactDOM })
+
+// neither
+export const wrapRootElement = ({ element }) => {
+  ...
+}
+
+// nor
+export const replaceHydrateFunction = () => {
+  return (element, container, callback) => {
+    ReactDOM.render(element, container, callback)
+  }
+}
+
+```
+
+and
+
+```json
+// package.json
+
+...
+"devDependencies": {
+  ...
+  "tailwindcss": "^1.3.5",
+},
+"devDependencies": {
+  ...
+  "codelift": "^1.0.12",
+},
+"scripts": {
+  ...
+  "start": "gatsby develop -p 3000",
+  "codelift": "codelift",
+},
+...
+
+```
+
+and
+
+```js
+// layout.js
+
+import 'tailwindcss/dist/tailwind.css'
+```
+
+I have [[Codelift]] server on http://localhost:1337 and Gatsby on http://localhost:3000, but it's still show `Loading` in the left panel.  
+Will wait for Gatsby Example [Issue](https://github.com/ericclemmons/codelift/issues/62)

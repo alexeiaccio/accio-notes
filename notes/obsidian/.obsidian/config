@@ -1,0 +1,121 @@
+{
+  "theme": "obsidian",
+  "pluginEnabledStatus": {
+    "File explorer": true,
+    "Search": true,
+    "Quick switcher": true,
+    "Graph view": true,
+    "Backlinks": true,
+    "Command palette": true,
+    "Markdown format importer": true,
+    "Word count": true,
+    "Tag pane": true,
+    "Page preview": true,
+    "Starred": true,
+    "Slides": true
+  },
+  "isSidebarCollapsed": false,
+  "isRightSidedockCollapsed": true,
+  "lastOpenSidebarTab": "File explorer",
+  "workspaceLayout": {
+    "id": "379ea500d6b7f1cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "637c5e8c7b0e35ac",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Tailwind CSS.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "lastOpenFiles": [
+    "Untitled.md",
+    "CSS.md",
+    "Next.js.md",
+    "Productivity.md",
+    "Second Brain.md"
+  ],
+  "lastOpenRightSidedockTab": "Backlinks",
+  "leftSidedock": {
+    "id": "e562ec4f43481f9c",
+    "type": "split",
+    "children": [
+      {
+        "id": "adbb152229bc320c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a6a390e3be79cea",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6ee7e68ef11b8c9b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          },
+          {
+            "id": "0698701718e9df8d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "rightSidedock": {
+    "id": "300680af9a831b91",
+    "type": "split",
+    "children": [
+      {
+        "id": "09b4242266e51ec3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4ac2852cdf01283",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          },
+          {
+            "id": "57b6c2e947719594",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "fileSortOrder": "alphabetical",
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": false,
+  "alwaysUpdateLinks": true
+}

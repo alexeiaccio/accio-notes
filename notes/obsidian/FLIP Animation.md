@@ -1,0 +1,2 @@
+https://github.com/aholachek/react-flip-toolkit – A lightweight magic-move library for configurable layout transitions.
+https://github.com/jlkiri/react-easy-flip – ⚛ A React library for smooth FLIP animations.
