@@ -1,3 +1,0 @@
-## #Resources 
-
-https://lawsofux.com – 
