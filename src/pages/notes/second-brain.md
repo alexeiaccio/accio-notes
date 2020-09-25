@@ -39,6 +39,7 @@ https://www.gitbook.com – Document Everything! For you, your users and your te
 
 https://github.com/athensresearch/athens – Open-Source Networked Thought. Self-hosted MVP on August 1st. #Clojure
 
+https://gtoolkit.com/download/ – Glamorous Toolkit is conceived as a whole environment that enables a new way of thinking about programming that we call moldable development. [[MacOS]]
 
 ### MD Editors
 

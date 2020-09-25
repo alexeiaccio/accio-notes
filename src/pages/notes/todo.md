@@ -9,7 +9,7 @@
 - [x] [[Emotion]] [[Gatsby Plugin]]
 - [x] [[Markdown]] Embed [[Gatsby Plugin]]
 - [x] [[Monaco Editor]]
-- [x] Move to [[Next.js]]!!!
+- [x] Move to [[Next JS]]!!!
 
 ---
 
@@ -38,6 +38,7 @@
 [Typescript]: typescript "Typescript"
 [Markdown]: markdown "Markdown"
 [Monaco Editor]: monaco-editor "Monaco Editor"
+[Next JS]: next-js "Next JS"
 [MDX]: mdx "MDX"
 [Unigrid]: unigrid "Unigrid"
 [Design System]: design-system "Design System"
